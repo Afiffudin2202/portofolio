@@ -1,0 +1,136 @@
+.navbar-bg {
+    background: linear-gradient(to right, #F1E5D1, #fff);
+    /* height: 80px; */
+    border-bottom: 1px solid #fff;
+}
+
+.navbar-bg h3,
+.navbar-bg a {
+    color: #252525;
+}
+
+.navbar-bg h3:hover,
+.navbar-bg a:hover{
+    color: #252525;
+    font-weight: 500;
+}
+
+
+#intro {
+    height: calc(100vh - 46px);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #F1E5D1, #fff);
+    color: #fff;
+}
+
+.image {
+    position: relative;
+    width: 100%;
+}
+
+.image img {
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    border-radius: 50%;
+    /* Atur z-index lebih tinggi daripada SVG */
+}
+
+.image .blob {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+}
+
+.card-container {
+    position: relative;
+    width: 100%;
+}
+
+.left-box {
+    background-color: #F1E5D1;
+    box-shadow: -5px 5px 10px rgba(112, 111, 111, 0.8);
+}
+
+.right-box {
+    background-color: #fff;
+    color: #252525;
+
+}
+
+.image {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.image img {
+    width: 60%;
+    border-radius: 50%;
+}
+
+.name {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.name h3 {
+    color: #252525;
+    font-weight: 800;
+    width: 50%;
+    border-bottom: 4px solid #252525;
+}
+
+.position p {
+    color: #252525;
+    font-size: 20px;
+}
+
+.footer-sosmed {
+    margin-top: 10px;
+    height: 50px;
+    background-color: #fff;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer-sosmed i {
+    color: #252525;
+}
+
+@media only screen and (max-width: 599px) {
+
+    #intro {
+       height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: linear-gradient(to right, #F1E5D1, #fff);
+        color: #fff;
+    }
+
+   .left-box {
+       background-color: #F1E5D1;
+   }
+
+   .right-box {
+       background-color: #fff;
+       color: #252525;
+    box-shadow: 5px 5px 10px rgba(112, 111, 111, 0.8);
+
+   }
+}
